@@ -2,6 +2,7 @@ body {
     background-color: black;
     color: white;
     background-image: url("https://assets-prd.ignimgs.com/2022/08/10/mortal-kombat-snow-blind-1-1660172155660.jpg");
+    background-repeat: no-repeat;
 }
 
 
@@ -15,16 +16,45 @@ body {
 
 }
 
-.character-list {
-    display: flex;
-    overflow-x: auto;
-    margin: 1rem 0;
-    max-width: calc(100vw - 2rem);
-  }
+.character-list img:hover {
+  filter: drop-shadow(0 0 0.75rem white)
+}
 
-  .character-list img {
-    flex: 0 1 auto;
-    height: 150px;
-    margin-right: 0.5rem;
-    cursor: pointer;
-  }
+.character-list {
+  display: flex;
+  height: 200px;
+  overflow-x: auto;
+  margin: 1rem 0;
+  max-width: calc(100vw - 2rem);
+}
+
+.character-list img {
+  flex: 0 1 auto;
+  height: 90px;
+  margin: 7px;
+  filter: drop-shadow(0 0 1em #c93642)
+}
+
+.character-info {
+  text-align: left;
+  font-family: cursive;
+  margin-bottom: 300px;
+  
+}
+
+.character-info img {
+  max-width: 500px;
+  max-height: 500px;
+}
+
+#name {
+  text-decoration: underline;
+}
+
+#character-votes {
+  color: rgba(208, 40, 40, 0.81);
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: bolder;
+  font-size: larger;
+}
+

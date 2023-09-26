@@ -5,13 +5,22 @@ fetch("http://localhost:3000/characters")
     characters.forEach(character => {
         const kombatImage = document.createElement("img")
         kombatImage.src = character.image
-        document.querySelector(".character-list").append(kombatImage)
+      
 
-        // kombatImage.addEventListener("click", () => {
-        //     document.querySelector(".detail-image").src = character.image
-        // })
-        
+        kombatImage.addEventListener("click", () => {
+            document.querySelector(".detail-image").src = character.image
+            document.querySelector("#name").textContent = character.name
+            document.querySelector("#description").textContent = character.description
+            document.querySelector("#vote-count").textContent = character.votes
+        })
+          document.querySelector(".character-list").append(kombatImage)
     })
+
+    document.querySelector(".detail-image").src = characters[0].image
+    document.querySelector("#name").textContent = characters[0].name
+    document.querySelector("#description").textContent = characters[0].description
+
+
 })
 
 

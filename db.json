@@ -4,67 +4,78 @@
         "id": 1,
         "name": "Liu Kang",
         "image": "https://staticg.sportskeeda.com/wp-content/uploads/2014/11/liu-kang-1416405873.jpg",
-        "description": "Earthrealm's greatest warrior and champion"
+        "description": "Earthrealm's greatest warrior and champion",
+        "votes": 0
       },
       {
         "id": 2,
         "name": "Johnny Kage",
         "image": "https://i.pinimg.com/736x/53/ca/23/53ca2339b0c9e9a1af1aaacc22cead33--johnny-cage-mortal-kombat.jpg",
-        "description": "He is an action movie star with an extensive martial arts background."
+        "description": "He is an action movie star with an extensive martial arts background.",
+        "votes": 0
       },
       {
         "id": 3,
         "name": "Sonya Blade",
         "image": "https://sportshub.cbsistatic.com/i/2022/03/28/0f321b6e-8eab-4bf6-a06a-e703f2c6b348/mortal-kombat-sonya-blade.jpg",
-        "description": "She is a military officer with the Special Forces."
+        "description": "She is a military officer with the Special Forces.",
+        "votes": 0
       },
       {
         "id": 4,
         "name": "Raiden",
         "image": "https://i0.wp.com/bloody-disgusting.com/wp-content/uploads/2014/08/MKX_Raiden.jpg?fit=620%2C400&ssl=1",
-        "description": "The god of thunder who possesses control over lightning."
+        "description": "The god of thunder who possesses control over lightning.",
+        "votes": 0
       },
       {
         "id": 5,
         "name": "Sub-Zero",
         "image": "https://wallpaperwaifu.com/wp-content/uploads/2021/08/grandmaster-sub-zero-mortal-kombat-thumb.jpg",
-        "description": "A warrior from the Lin Kuei clan, he is principally defined by his ability to control ice in many forms."
+        "description": "A warrior from the Lin Kuei clan, he is principally defined by his ability to control ice in many forms.",
+        "votes": 0
       },
       {
         "id": 6,
         "name": "Scorpion",
         "image": "https://s2-techtudo.glbimg.com/M6OGXIk-Z6NI0zdIQlY0LeHEoWA=/0x0:1920x1080/600x0/smart/filters:gifv():strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2021/n/m/t4WYU9S9ShEJpVz7Rkhg/scorpion-render01.png",
-        "description": "An undead ninja, he is principally defined by his quest to avenge the deaths of himself, his family, and his clan. His primary weapon is a kunai spear."
+        "description": "An undead ninja, he is principally defined by his quest to avenge the deaths of himself, his family, and his clan. His primary weapon is a kunai spear.",
+        "votes": 0
       },
       {
         "id": 7,
         "name": "Reptile",
-        "image": "https://www.reddit.com/media?url=https%3A%2F%2Fpreview.redd.it%2Fmake-no-mistake-i-absolutely-love-reptiles-new-look-in-mk1-v0-40kqzp8aunib1.jpg%3Fauto%3Dwebp%26s%3D408061cce5c51bbfa2f99fa392059864ed856ed3",
-        "description": "He is a Saurian, a species of reptilian humanoids and one of the last surviving members of his race."
+        "image": "https://www.dexerto.com/cdn-cgi/image/width=3840,quality=75,format=auto/https://editors.dexerto.com/wp-content/uploads/2023/08/04/mortal-kombat-shaolin-monks-reptile.jpg",
+        "description": "He is a Saurian, a species of reptilian humanoids and one of the last surviving members of his race.",
+        "votes": 0
       },
       {
         "id": 8,
         "name": "Shang Tsung",
-        "image": "https://static.wikia.nocookie.net/mortalkombatx-mobile/images/d/d3/Render_-_MK11_ST_%28card%29.png/revision/latest?cb=20220328061637",
-        "description": "A powerful sorcerer, he is principally defined by his abilities to shapeshift into other characters and to absorb the souls of defeated warriors."
+        "image": "https://store-images.s-microsoft.com/image/apps.20710.71152296358897779.8747925a-1ba2-4a87-840b-751e8c33cf11.d1711870-a3fd-4925-9a8b-628d51b28b2f?q=90&w=480&h=270",
+        "description": "A powerful sorcerer, he is principally defined by his abilities to shapeshift into other characters and to absorb the souls of defeated warriors.",
+        "votes": 0
       },
       {
         "id": 9,
         "name": "Shao Kahn",
         "image": "https://i.redd.it/theory-i-think-shao-kahn-is-in-mortal-kombat-1-as-the-main-v0-r9vqn8a7591b1.jpg?s=cc807ddcea71e4a25ef11e655a5dc96d6d81df27",
-        "description": "The emperor of the realm of Outworld, he is feared for his immense strength, and knowledge of black magic, Shao Kahn seeks conquest of all the realms, including Earth"
+        "description": "The emperor of the realm of Outworld, he is feared for his immense strength, and knowledge of black magic, Shao Kahn seeks conquest of all the realms, including Earth",
+        "votes": 0
       },
       {
         "id": 10,
         "name": "Kitana",
         "image": "https://assetsio.reedpopcdn.com/kitana-mortal-kombat.jpg?width=1200&height=900&fit=crop&quality=100&format=png&enable=upscale&auto=webp",
-        "description": "She is a 10,000 year old assassin and stepdaughter of Shao Kahn from the realm of Edenia"
+        "description": "She is a 10,000 year old assassin and stepdaughter of Shao Kahn from the realm of Edenia",
+        "votes": 0
       },
       {
         "id": 11,
         "name": "Mileena",
         "image": "https://i.pinimg.com/1200x/9a/06/0c/9a060cb4c11bf634e159da3633df6a3c.jpg",
-        "description": "The biological twin sister of Kitana and daughter of Sindel, and heir to the throne. However, she was infected with the Tarkatan virus and wears a veil to conceil her face."
+        "description": "The biological twin sister of Kitana and daughter of Sindel, and heir to the throne. However, she was infected with the Tarkatan virus and wears a veil to conceil her face.",
+        "votes": 0
       }
     ]
   }
