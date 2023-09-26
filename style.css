@@ -1,0 +1,30 @@
+body {
+    background-color: black;
+    color: white;
+    background-image: url("https://assets-prd.ignimgs.com/2022/08/10/mortal-kombat-snow-blind-1-1660172155660.jpg");
+}
+
+
+#header {
+    text-align: center;
+    font-family: cursive;
+    font-size: 100px;
+    font-weight: bolder;
+    margin-top: 4%;
+    color: rgba(208, 40, 40, 0.81);
+
+}
+
+.character-list {
+    display: flex;
+    overflow-x: auto;
+    margin: 1rem 0;
+    max-width: calc(100vw - 2rem);
+  }
+
+  .character-list img {
+    flex: 0 1 auto;
+    height: 150px;
+    margin-right: 0.5rem;
+    cursor: pointer;
+  }
