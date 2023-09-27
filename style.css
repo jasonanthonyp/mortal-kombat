@@ -5,6 +5,14 @@ body {
     background-repeat: no-repeat;
 }
 
+.character-info {
+  display: flex;
+  justify-content: space-around;
+}
+
+.container-two {
+  max-width: 500px;
+}
 
 #header {
     text-align: center;

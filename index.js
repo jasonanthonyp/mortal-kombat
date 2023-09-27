@@ -13,16 +13,30 @@ function showDetails(char) {
         })
 }
 
+
+
+
 function listChar(char) {
     const kombatImage = document.createElement("img");
+    const textDisplay = document.querySelector("#text-display")
     kombatImage.src = char.image;
-    kombatImage.addEventListener("click", (e) => {
-        e.preventDefault();
-        selectedId = char.id;
+    kombatImage.addEventListener("click", () => {
+        //selectedId = char.id;
         showDetails(char);
+    }); 
+        kombatImage.addEventListener("mouseover", () => {
+        selectedId = char.id;
+        document.querySelector("#header").textContent = char.name;
+    });
+
+    kombatImage.addEventListener("mouseout", () => {
+        document.querySelector("#header").textContent = "MORTAL KOMBAT"
     })
+    
     charList.append(kombatImage);
 };
+
+
 
 fetch("http://localhost:3000/characters")
     .then(res => res.json())
@@ -33,11 +47,14 @@ fetch("http://localhost:3000/characters")
         });
     });
 
-document.getElementById("submit-likes").addEventListener("submit", (e) => {
-    e.preventDefault();
+
+
+document.getElementById("submit-likes").addEventListener("submit", event => {
+    event.preventDefault();
     let voteCount = document.getElementById("vote-count");
     let newVotes = parseInt(voteCount.textContent);
     newVotes++;
+
     fetch(`http://localhost:3000/characters/${selectedId}`, {
         method: "PATCH",
         headers: {
