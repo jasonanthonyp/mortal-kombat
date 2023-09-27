@@ -58,3 +58,10 @@ body {
   font-size: larger;
 }
 
+#skull {
+  width: 80px;
+  height: 80px;
+  text-align: center;
+  margin-left: 200px;
+}
+
