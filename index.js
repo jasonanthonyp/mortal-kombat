@@ -10,6 +10,7 @@ function showDetails(char) {
             document.querySelector("#name").textContent = character.name;
             document.querySelector("#description").textContent = character.description;
             document.querySelector("#vote-count").textContent = character.votes;
+            
         })
 }
 
@@ -21,11 +22,9 @@ function listChar(char) {
     const textDisplay = document.querySelector("#text-display")
     kombatImage.src = char.image;
     kombatImage.addEventListener("click", () => {
-        //selectedId = char.id;
         showDetails(char);
     }); 
         kombatImage.addEventListener("mouseover", () => {
-        selectedId = char.id;
         document.querySelector("#header").textContent = char.name;
     });
 
@@ -66,3 +65,17 @@ document.getElementById("submit-likes").addEventListener("submit", event => {
     });
     voteCount.textContent = newVotes;
 });
+
+document.addEventListener("keyup", (event) => {
+    if (event.key === "k"){
+        selectedId = Math.floor(Math.random() * 11 );
+        fetch(`http://localhost:3000/characters/${selectedId}`)
+        .then(res => res.json())
+        .then(character => {
+            document.querySelector(".detail-image").src = character.image;
+            document.querySelector("#name").textContent = character.name;
+            document.querySelector("#description").textContent = character.description;
+            document.querySelector("#vote-count").textContent = character.votes;
+        })
+    }
+})
